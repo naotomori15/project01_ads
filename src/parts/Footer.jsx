@@ -18,7 +18,7 @@ export default function Footer() {
             <p className='font-light text-pastel my-4'>
               Tim konsultan yang berpengalaman dan terlatih akan memberikan
               saran dan bimbingan yang tepat untuk membantu klien meraih
-              keberhasilan dan kinerja yang lebih baik.
+              keberhasilan dan kinerja yang lebih baik. ``
             </p>
           </div>
           <div className='col-start-1 col-end-12 md:col-start-7 md:col-end-9'>
