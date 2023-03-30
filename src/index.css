@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@layer base {
+  html {
+    @apply font-roboto;
+  }
+  header > .container > nav {
+    @apply bg-transparent !important;
+  }
+  header > nav .active {
+    @apply text-secondary font-semibold;
+  }
+  header > div .nav-ul > ul {
+    @apply items-center;
+  }
+  .carousel-slick > div .slick-list > div .slick-track {
+    display: flex !important;
+    gap: 16px;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .button {
+    @apply min-h-[44px] min-w-[44px] px-2 md:px-4 py-1;
+  }
+}
