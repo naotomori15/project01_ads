@@ -2,7 +2,7 @@ import './index.css';
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import LandingPages from './pages/LandingPages';
 import ReactGA from 'react-ga4';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider } from 'react-helmet-async';
 function App() {
   const TRACKING_ID = 'G-B33FL1ZZYR';
   ReactGA.initialize(TRACKING_ID);
