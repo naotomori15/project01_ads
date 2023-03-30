@@ -11,8 +11,8 @@ export default function Contact() {
               All-in-one platform for business
             </h1>
             <p className='text-dark font-light'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />{' '}
-              Provident dolorem culpa sunt atque illo itaque.
+              Satu website untuk semua bisnis anda. <br /> Lebih efisien dan
+              efektif untuk anda.
             </p>
           </div>
           <div>

@@ -4,23 +4,23 @@ export default function OurTeam() {
   const peopleCard = [
     {
       imageURL: 'man-1.png',
-      name: 'Andry Ford',
-      job: 'CEO WhatEver',
+      name: 'Bapak Asep',
+      job: 'CTO Space',
     },
     {
       imageURL: 'women-1.png',
-      name: 'Andry Ford',
-      job: 'CEO WhatEver',
+      name: 'Ibu Sarminah',
+      job: 'Profesional Consultant',
     },
     {
       imageURL: 'man-2.png',
-      name: 'Andry Ford',
-      job: 'CEO WhatEver',
+      name: 'Bapak Martin',
+      job: 'Bisnis Marketing',
     },
     {
       imageURL: 'women-2.png',
-      name: 'Andry Ford',
-      job: 'CEO WhatEver',
+      name: 'Mbak Ani',
+      job: 'Profesional Consultant',
     },
   ];
   return (
@@ -29,8 +29,7 @@ export default function OurTeam() {
         Our Leadership
       </h1>
       <p className='text-dark font-light text-center'>
-        Convallis turpis erat tempus, viverra aliquet. Nullam viverra nam auctor
-        sit ipsum malesuada a, duis volutpat.
+        Tim kami terdiri orang-orang terbaik dari yang terbaik.
       </p>
       <div className='w-full container mx-auto pt-20 pb-12'>
         <div className='w-full grid grid-cols-1 gap-y-10 md:grid-cols-4 items-center justify-center md:gap-x-4'>

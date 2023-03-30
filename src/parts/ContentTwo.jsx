@@ -4,45 +4,45 @@ import { AiOutlineRight } from 'react-icons/ai';
 export default function ContentTwo() {
   const arrayDesign = [
     {
-      title: 'Design Concept',
+      title: 'Terpercaya',
       description:
-        ' Vitae nulla nunc euismod vel nunc euismod velpretium tellus accumsan nulla nunc euismod ve semper.',
+        'Kami menghargai kepercayaan yang diberikan oleh klien dan memastikan bahwa privasi dan kerahasiaan klien selalu dijaga.',
       icons: 'warning.svg',
     },
     {
-      title: 'Design Concept',
+      title: 'Konsisten',
       description:
-        ' Vitae nulla nunc euismod vel nunc euismod velpretium tellus accumsan nulla nunc euismod ve semper.',
+        'Kami selalu konsisten dalam memberikan kualitas konsultasi terbaik kepada klien kami.',
       icons: 'clock.svg',
     },
     {
-      title: 'Design Concept',
+      title: 'Professional',
       description:
-        ' Vitae nulla nunc euismod vel nunc euismod velpretium tellus accumsan nulla nunc euismod ve semper.',
+        'Kami memastikan bahwa seluruh tim konsultan kami memiliki etika kerja yang tinggi dan mampu memberikan layanan yang professional.',
       icons: 'clock.svg',
     },
     {
-      title: 'Design Concept',
+      title: 'Kredibel',
       description:
-        ' Vitae nulla nunc euismod vel nunc euismod velpretium tellus accumsan nulla nunc euismod ve semper.',
+        'Kami memiliki reputasi yang kredibel dan dihormati dalam industri, dengan banyak klien yang telah mengalami kesuksesan dengan bantuan kami.',
       icons: 'warning.svg',
     },
   ];
   const arrayCard = [
     {
-      title: 'Audit',
+      title: 'Solution',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing Ac aliquam ac volutpat, viverra magna risus aliquam massa. Ac aliquam ac volutpat, viverra magna risus. ',
+        'Kami menyediakan platform konsultasi dengan tim ahli yang berpengalaman untuk membantu pengguna mencari solusi dan mencapai tujuan mereka.',
     },
     {
-      title: 'Teamwork',
+      title: 'Growth Your Bussines',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing Ac aliquam ac volutpat, viverra magna risus aliquam massa. Ac aliquam ac volutpat, viverra magna risus. ',
+        'Kami menawarkan layanan konsultasi untuk membantu pengguna meningkatkan kemampuan mereka dan mencapai tujuan yang diinginkan.',
     },
     {
-      title: 'Create',
+      title: 'Productivity',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing Ac aliquam ac volutpat, viverra magna risus aliquam massa. Ac aliquam ac volutpat, viverra magna risus. ',
+        'Kami hadir untuk membantu pengguna mencari solusi yang dapat meningkatkan produktivitas dan efisiensi baik untuk individu maupun organisasi.',
     },
   ];
   return (
@@ -54,16 +54,13 @@ export default function ContentTwo() {
               Design Concept
             </h1>
             <h2 className='text-dark font-semibold text-4xl my-4'>
-              The best design for your studio website
+              Innotive is solution
             </h2>
             <p className='text-dark font-light text-base'>
-              Convallis turpis erat tempus, viverra aliquet. Nullam viverra{' '}
-              <br />
-              nam auctor sit ipsum malesuada a,
-              <br />
-              duis volutpat. Convallis turpis erat tempus, viverra aliquet.{' '}
-              <br />
-              Nullam viverra nam auctor sit ipsum malesuada a, duis volutpat.
+              Kami terus berinovasi dan mencari cara-cara baru untuk membantu
+              klien kami meraih tujuan mereka. <br />
+              Inovasi adalah sebuah keharusan untuk kami, untuk meningkatkan
+              bisnis anda.
             </p>
           </div>
           <img

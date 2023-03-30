@@ -10,33 +10,33 @@ export default function Carousel() {
 
   const carouselContent = [
     {
-      title: 'Name',
+      title: 'Konsultasi Bisnis',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing Ac aliquam ac volutpat, viverra magna risus aliquam massa. Ac aliquam ac volutpat, viverra magna risus.',
+        'Memberikan saran dan rekomendasi untuk meningkatkan efisiensi operasional dan keuntungan bisnis, melakukan analisis SWOT, identifikasi target pasar, dan strategi pengembangan produk.',
       isLink: false,
     },
     {
-      title: 'Name',
+      title: 'Konsultasi Keuangan',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing Ac aliquam ac volutpat, viverra magna risus aliquam massa. Ac aliquam ac volutpat, viverra magna risus.',
+        'Memberikan saran untuk mengelola keuangan perusahaan secara efektif, meningkatkan margin keuntungan, mengidentifikasi sumber pendanaan yang tepat, dan mengevaluasi potensi investasi.',
       isLink: true,
     },
     {
-      title: 'Name',
+      title: 'Konsultasi Pemasaran',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing Ac aliquam ac volutpat, viverra magna risus aliquam massa. Ac aliquam ac volutpat, viverra magna risus.',
+        'Memberikan rekomendasi untuk meningkatkan branding, promosi, dan kampanye pemasaran, mengevaluasi target pasar dan pesaing, serta mengembangkan strategi pemasaran yang efektif.',
       isLink: false,
     },
     {
-      title: 'Name',
+      title: 'Konsultasi SDM',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing Ac aliquam ac volutpat, viverra magna risus aliquam massa. Ac aliquam ac volutpat, viverra magna risus.',
+        'Memberikan saran dalam hal manajemen karyawan, pengembangan keterampilan, dan meningkatkan kinerja tim.',
       isLink: true,
     },
     {
-      title: 'Name',
+      title: 'Konsultasi Hukum',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing Ac aliquam ac volutpat, viverra magna risus aliquam massa. Ac aliquam ac volutpat, viverra magna risus.',
+        'Memberikan saran dan rekomendasi dalam hal pengaturan perjanjian dan kontrak, masalah hukum, dan kewajiban perusahaan sesuai dengan peraturan dan undang-undang yang berlaku.',
       isLink: false,
     },
   ];
@@ -81,7 +81,7 @@ export default function Carousel() {
         {carouselContent.map((card, index) => (
           <div
             key={index}
-            className='bg-light shadow-lg px-8 py-5 md:px-14 md:py-10'>
+            className='bg-light shadow-lg px-8 py-5 md:px-14 md:py-10 h-[300px] md:h-[350px]'>
             <div>
               <h2 className='text-dark text-3xl font-semibold my-4'>
                 {card.title}

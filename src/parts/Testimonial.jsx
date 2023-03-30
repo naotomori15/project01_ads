@@ -4,17 +4,17 @@ export default function Testimonial() {
   const arrTesti = [
     {
       imageURL: 'rounded-people-2.png',
-      name: 'Andry Ford',
-      job: 'CEO WhatEver',
+      name: 'Ibu Rani',
+      job: 'Pemilik Warteg',
       description:
-        "Every single person comes away and says - wow that's a reallyslick experience, that was so easy to use. I feel so much less stressed as I now know we’re doing everything by the book.",
+        'Saya merasa sangat beruntung dapat menggunakan jasa konsultasi bisnis dari Space. Memberikan strategi yang tepat untuk mengembangkan bisnis saya, dan membantu saya mengatasi berbagai masalah yang dihadapi dalam menjalankan usaha.',
     },
     {
       imageURL: 'rounded-people-1.png',
-      name: 'Andry Ford',
-      job: 'CEO WhatEver',
+      name: 'Bapak Jon',
+      job: 'Kang Nasi Padang',
       description:
-        'I feel so much less stressed ❤️ as I now know we’re doing everything by the book.',
+        'Saya sangat terbantu dengan jasa konsultasi bisnis dari Space. Dengan bimbingan dan saran yang diberikan, saya mampu meningkatkan kinerja bisnis saya dan meraih keuntungan yang lebih besar.',
     },
   ];
   return (

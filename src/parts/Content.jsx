@@ -19,10 +19,8 @@ export default function Content() {
                 Requirements gathering and analysis for references.
               </h2>
               <p className='text-dark font-light py-5 '>
-                Convallis turpis erat tempus, viverra aliquet. Nullam viverra
-                nam auctor sit ipsum malesuada a, duis volutpat. Convallis
-                turpis erat tempus, viverra aliquet. Nullam viverra nam auctor
-                sit ipsum malesuada a, duis volutpat.
+                Kami memiliki tim konsultan yang sangat berpengalaman dan
+                terlatih untuk membantu Anda dalam setiap kebutuhan konsultasi.
               </p>
             </div>
             <img
@@ -43,11 +41,11 @@ export default function Content() {
           </div>
           <div className='col-start-1 col-end-12 md:col-start-7 md:col-end-13 flex flex-col justify-center'>
             <h3 className='text-3xl md:text-4xl font-semibold'>
-              The best design for your studio website
+              The best solution for your business
             </h3>
             <p className='text-base font-light my-3 md:my-6'>
-              Convallis turpis erat tempus, viverra aliquet. Nullam viverra nam
-              auctor sit ipsum malesuada duis volutpat.
+              Kami fokus pada memberikan solusi terbaik untuk masalah yang
+              dihadapi oleh klien kami.
             </p>
             <Button
               type='link'
@@ -62,11 +60,11 @@ export default function Content() {
           <br />
           <div className='col-start-1 col-end-12 md:col-start-1 md:col-end-7 flex flex-col justify-center'>
             <h3 className='text-3xl md:text-4xl font-semibold'>
-              The best design for your studio website
+              Collaboration other teams.
             </h3>
             <p className='text-base font-light my-3 md:my-6'>
-              Convallis turpis erat tempus, viverra aliquet. Nullam viverra nam
-              auctor sit ipsum malesuada duis volutpat.
+              Kami bekerja secara kolaboratif dengan klien untuk memastikan
+              hasil terbaik dicapai.
             </p>
             <Button
               type='link'
