@@ -25,21 +25,7 @@ export default function Header() {
               href='/navbars'>
               Home
             </Navbar.Link>
-            <Navbar.Link
-              className='text-dark'
-              to='/navbars'>
-              Templates
-            </Navbar.Link>
-            <Navbar.Link
-              className='text-dark'
-              href='/navbars'>
-              Price
-            </Navbar.Link>
-            <Navbar.Link
-              className='text-dark'
-              href='/navbars'>
-              Help
-            </Navbar.Link>
+
             <Button
               isFlex
               isTransparent
