@@ -8,13 +8,21 @@ import OurTeam from '../parts/OurTeam';
 import Testimonial from '../parts/Testimonial';
 import Contact from '../parts/Contact';
 import Footer from '../parts/Footer';
+import SEO from '../components/SEO/SeoContent';
 
 export default function LandingPages() {
-  useEffect(() => {
-    window.document.title = 'Consultant Space';
-  }, []);
   return (
     <>
+      <div>
+        <SEO
+          title='Consultant Space'
+          name='Space'
+          type='website'
+          description='Kami melayani konsultasi untuk bisnis anda.'
+          url='https://dijaminhoki-ads.site/project06/smartwatch/'
+          imageUrl='https://source.unsplash.com/random/300x200/?business'
+        />
+      </div>
       <Header />
       <Hero />
       <main>
