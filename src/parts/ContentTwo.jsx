@@ -101,7 +101,7 @@ export default function ContentTwo() {
               isExternal
               target='_blank'
               className='text-primary hover:text-blue-500 transition underline flex items-center md:gap-x-4'>
-              Experiece Team <AiOutlineRight className='text-2xl text-xl' />
+              Experiece Team <AiOutlineRight className='md:text-2xl text-xl' />
             </Button>
           </div>
           <div className='w-full grid-cols-1 gap-y-4 grid md:grid-cols-3 justify-center items-center md:gap-x-4'>
