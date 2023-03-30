@@ -23,7 +23,7 @@ export default function Testimonial() {
         <img
           src={`${process.env.PUBLIC_URL}/images/design/left.svg`}
           alt='Left'
-          className='w-[60px] md:w-full'
+          className='w-[60px] md:w-auto'
         />
         <div className='container mx-auto'>
           <div className='px-2 md:px-52 flex flex-col'>
