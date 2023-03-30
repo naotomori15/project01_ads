@@ -1,7 +1,9 @@
 import React from 'react';
 import Button from '../components/Button';
+import useAnalyticsEventTracker from '../components/Analytics/useAnalyticTracker';
 
 export default function Hero() {
+  const gaEventTracker = useAnalyticsEventTracker('Get in touch');
   return (
     <section className='w-full overflow-hidden'>
       <div className='w-full mx-auto px-6 pt-8 pb-24 md:px-0 md:pl-32 md:py-16'>
@@ -18,7 +20,10 @@ export default function Hero() {
                 </h2>
               </div>
               <Button
-                className='button items-center justify-center mt-12 mb-4'
+                type='link'
+                href='#'
+                onClick={() => gaEventTracker('contact')}
+                className='button items-center justify-center mt-12 w-40'
                 isPrimary
                 isFlex
                 isRounded>
