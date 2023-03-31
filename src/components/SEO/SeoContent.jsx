@@ -1,55 +1,52 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 export default function SEO({ title, description, name, type, url, imageUrl }) {
+  console.log(description);
   return (
-    <Helmet>
-      {/* Standard metadata tags */}
-      <title>{title}</title>
-      <meta
-        name='description'
-        content={description}
-      />
-      {/* End standard metadata tags */}
-      {/* Facebook tags */}
-      <meta
-        property='og:type'
-        content={type}
-      />
-      <meta
-        property='og:url'
-        content={url}
-      />
-      <meta
-        property='og:image'
-        content={imageUrl}
-      />
-      <meta
-        property='og:title'
-        content={title}
-      />
-      <meta
-        property='og:description'
-        content={description}
-      />
-      {/* End Facebook tags */}
-      {/* Twitter tags */}
-      <meta
-        name='twitter:creator'
-        content={name}
-      />
-      <meta
-        name='twitter:card'
-        content={type}
-      />
-      <meta
-        name='twitter:title'
-        content={title}
-      />
-      <meta
-        name='twitter:description'
-        content={description}
-      />
-      {/* End Twitter tags */}
-    </Helmet>
+    <Helmet
+      title={title}
+      htmlAttributes={{ lang: 'en' }}
+      meta={[
+        {
+          name: `description`,
+          content: description,
+        },
+        // FB META TAG
+        {
+          property: 'og:url',
+          content: url,
+        },
+        {
+          property: 'og:type',
+          content: type,
+        },
+        {
+          property: 'og:title',
+          content: title,
+        },
+        {
+          property: 'og:description',
+          content: description,
+        },
+        {
+          property: 'og:image',
+          content: imageUrl,
+        },
+        // TWITTER META TAG
+
+        {
+          property: 'twitter:title',
+          content: title,
+        },
+        {
+          property: 'twitter:description',
+          content: description,
+        },
+        {
+          property: 'twitter:image',
+          content: imageUrl,
+        },
+      ]}
+    />
   );
 }
