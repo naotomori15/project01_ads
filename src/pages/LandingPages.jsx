@@ -13,16 +13,15 @@ import SEO from '../components/SEO/SeoContent';
 export default function LandingPages() {
   return (
     <>
-      <div>
-        <SEO
-          title='Consultant Space'
-          name='Space'
-          type='website'
-          description='Kami melayani konsultasi untuk bisnis anda.'
-          url='https://dijaminhoki-ads.site/project06/smartwatch/'
-          imageUrl='https://source.unsplash.com/random/300x200/?business'
-        />
-      </div>
+      <SEO
+        title='Consultant Space'
+        name='Space'
+        type='website'
+        description='Kami melayani konsultasi untuk bisnis anda.'
+        url='https://dijaminhoki-ads.site/project06/smartwatch/'
+        imageUrl='https://source.unsplash.com/random/300x200/?business'
+      />
+
       <Header />
       <Hero />
       <main>
