@@ -6,9 +6,10 @@ import { HelmetProvider } from 'react-helmet-async';
 function App() {
   const TRACKING_ID = 'G-B33FL1ZZYR';
   ReactGA.initialize(TRACKING_ID);
+  const helmetContext = {};
   return (
     <>
-      <HelmetProvider>
+      <HelmetProvider context={helmetContext}>
         <Router>
           <Routes>
             <Route
