@@ -42,7 +42,7 @@ export default function Hero() {
                   className='w-[60px] h-[60px]'
                 />
                 <div className='ml-3'>
-                  <p className='font-semibold text-base'>Catherine Ford</p>
+                  <p className='font-semibold text-base'>Lessy izes</p>
                   <p className='text-[12px] font-light'>CEO</p>
                 </div>
               </div>
